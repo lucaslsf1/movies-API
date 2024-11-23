@@ -12,6 +12,8 @@ import java.util.List;
 
 // Utilizamos a notação Documents para o spring saber que isso representa cada documento na coleção movies
 @Document(collection = "movies")
+// As próximas 3 anotações são relacionadas à dependência Lombok, que é utilizado para criar códigos em tempo de compilação
+// assim as classes não ficam cheias de código. (Os nomes delas ja dizem basicamente o que significam).
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
